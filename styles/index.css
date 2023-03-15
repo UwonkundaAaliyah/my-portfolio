@@ -1,0 +1,239 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+display: flex;
+justify-content:space-between;
+color: white;
+}
+.name {
+padding-top: 15px;
+font-size: 12px;
+}
+.u {
+padding-top: 300px;
+padding-left: 10px;
+color: white;
+}
+.first button {
+    margin-left: 1px;
+}
+.navibar {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.navibar ul {
+    display: flex;
+    gap: 30px;
+}
+.navibar ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white
+}
+.navibar ul li{
+    list-style: none;
+}
+.Home {
+    color: rgb(44, 163, 94);
+    text-decoration: underline;
+}
+.home-content{
+    height: 90vh;
+    background-image:url("../images/Aalyah.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+button{
+    padding: 15px;
+    margin-left: 180px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(33, 124, 33);
+    color: white;
+}
+.aboutus {
+    display: flex;
+  gap: 10px;
+  background-color: rgb(29, 28, 28);
+  height: 90vh;
+}
+.about-image img{
+    height:88vh;    
+}
+.about-content {
+    padding-top: 100px;
+    color: white;
+}
+.second button{
+margin-left: 8px;
+}
+.services{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.service{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30%;
+    padding: 20px;
+}
+.ser {
+    margin-left: 500px;
+    text-decoration: underline;
+    color: rgb(33, 124, 33);
+}
+.box{
+    background-color:rgb(29, 28, 28);
+    margin-bottom: 20px;
+    padding: 30px;
+    width: 150%;
+}
+.portfolio{
+    background-color: rgb(29, 28, 28);
+    padding: 1px;
+}
+.po{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+.Portfolio-image img{
+    width: 230px;
+    height: 50vh;
+}
+.third button{
+    margin-left: 1px;
+    margin-top: 8px;
+}
+.port ul{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 130px;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.ali{
+    font-size: 19px;
+}
+.testimoni{
+    background-color: black;
+    color:rgb(117, 116, 116);
+    padding: 5px;
+    height: 70vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.te{
+    text-align: center;
+    text-decoration: underline;
+}
+.testimonial{
+    display: flex;
+    justify-content: space-between;
+}
+.ima img{
+    clip-path: circle(30px at center);
+    width: 16%;
+    height: 20vh;
+    padding-left: 1%;
+    padding-top: 30px;
+}
+.bo1{
+    background-color:rgb(29, 28, 28);
+    width: 460px;
+    height: 35vh;
+    padding: 5px;
+}
+.para{
+    padding-left: 35px;
+}
+i{
+    color:rgb(33, 124, 33);
+    font-size: 46px;
+}
+.circle{
+    text-align: center;
+}
+.get{
+    background-color: black;
+    color:rgb(117, 116, 116) ;
+    padding: 5px;
+    font-size: 24px;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.get h5{
+    color: rgb(205, 205, 207);
+}
+.getin{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ge{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(205, 205, 207);
+}
+.form{
+    /* display: block;
+    justify-content: space-between; */
+    color: rgb(29, 28, 28);
+}
+.fo{
+    display: flex;
+    gap: 30px;
+    padding-left: 34%;
+}
+.for input{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 31%;
+}
+.for{
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+input{
+    background-color:rgb(29, 28, 28) ;
+    border: none;
+}
+.bu{
+    padding-left: 30%;
+}
+.bu button{
+    width: 20%;
+    height: 5vh;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(29, 28, 28);
+    height: 10vh;
+    color: rgb(117, 116, 116);
+    padding: 12px;
+}
+.icon i{
+    color: rgb(117, 116, 116) ;
+}
+.icon{
+    display: flex;
+    gap: 5px;
+    /* padding: 12px; */
+}
+.co span{
+    font-weight: bolder;
+}
+.co{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

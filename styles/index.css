@@ -6,7 +6,8 @@
 .header {
 display: flex;
 justify-content:space-between;
-color: rgb(205, 205, 207);
+color: rgb(155, 155, 158);
+padding-left: 10px;
 }
 .ali{
     font-size: 19px;
@@ -18,7 +19,7 @@ font-size: 12px;
 .u {
 padding-top: 300px;
 padding-left: 10px;
-color: rgb(205, 205, 207);
+color: rgb(155, 155, 158);
 }
 .first button {
     margin-left: 1px;
@@ -249,4 +250,12 @@ input{
 }
 .co{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ima{
+    position: relative;
+}
+.lee{
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 10px;
 }

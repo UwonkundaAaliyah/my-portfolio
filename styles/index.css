@@ -6,7 +6,10 @@
 .header {
 display: flex;
 justify-content:space-between;
-color: white;
+color: rgb(205, 205, 207);
+}
+.ali{
+    font-size: 19px;
 }
 .name {
 padding-top: 15px;
@@ -15,7 +18,7 @@ font-size: 12px;
 .u {
 padding-top: 300px;
 padding-left: 10px;
-color: white;
+color: rgb(205, 205, 207);
 }
 .first button {
     margin-left: 1px;
@@ -31,7 +34,7 @@ color: white;
 .navibar ul li a {
     text-decoration: none;
     font-size: 25px;
-    color: white
+    color:rgb(233, 231, 231);
 }
 .navibar ul li{
     list-style: none;
@@ -48,32 +51,37 @@ color: white;
     background-position: center;
 }
 button{
-    padding: 15px;
+    padding: 10px;
     margin-left: 180px;
     margin-top: 20px;
     border-radius: 10px;
     border: none;
-    background-color: rgb(33, 124, 33);
-    color: white;
+    background-color: rgb(79, 122, 79);
+    color:rgb(205, 205, 207);
 }
 .aboutus {
     display: flex;
   gap: 10px;
   background-color: rgb(29, 28, 28);
   height: 90vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .about-image img{
     height:88vh;    
 }
 .about-content {
     padding-top: 100px;
-    color: white;
+    color: rgb(205, 205, 207);
+}
+.about-content p{
+    color: rgb(117, 116, 116);
 }
 .second button{
 margin-left: 8px;
+height: 5vh;
 }
 .services{
-    color: white;
+    color:rgb(205, 205, 207);
     background-color: black;
     padding: 10px;
 }
@@ -86,7 +94,7 @@ margin-left: 8px;
 .ser {
     margin-left: 500px;
     text-decoration: underline;
-    color: rgb(33, 124, 33);
+    color: rgb(205, 205, 207);
 }
 .box{
     background-color:rgb(29, 28, 28);
@@ -94,12 +102,15 @@ margin-left: 8px;
     padding: 30px;
     width: 150%;
 }
+.box p{
+    color:rgb(117, 116, 116);
+}
 .portfolio{
     background-color: rgb(29, 28, 28);
     padding: 1px;
 }
 .po{
-    color: white;
+    color: rgb(205, 205, 207);
     text-align: center;
     text-decoration: underline;
 }
@@ -110,19 +121,19 @@ margin-left: 8px;
 .third button{
     margin-left: 1px;
     margin-top: 8px;
+    color: rgb(205, 205, 207);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
 }
 .port ul{
     display: flex;
     /* justify-content: space-between; */
     gap: 130px;
     list-style: none;
-    color: white;
+    color: rgb(205, 205, 207);
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-}
-.ali{
-    font-size: 19px;
 }
 .testimoni{
     background-color: black;
@@ -134,6 +145,7 @@ margin-left: 8px;
 .te{
     text-align: center;
     text-decoration: underline;
+    color: rgb(205, 205, 207);
 }
 .testimonial{
     display: flex;
@@ -182,6 +194,7 @@ i{
     text-align: center;
     text-decoration: underline;
     color: rgb(205, 205, 207);
+    font-size: 18px;
 }
 .form{
     /* display: block;

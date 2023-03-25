@@ -6,8 +6,11 @@
 .header {
 display: flex;
 justify-content:space-between;
-color: rgb(155, 155, 158);
+color: white;
 padding-left: 10px;
+}
+.uwon{
+    color: rgb(109, 109, 109);
 }
 .ali{
     font-size: 19px;
@@ -19,10 +22,7 @@ font-size: 12px;
 .u {
 padding-top: 300px;
 padding-left: 10px;
-color: rgb(155, 155, 158);
-}
-.first button {
-    margin-left: 1px;
+color:white;
 }
 .navibar {
     margin-right: 20px;
@@ -35,17 +35,21 @@ color: rgb(155, 155, 158);
 .navibar ul li a {
     text-decoration: none;
     font-size: 25px;
-    color:rgb(233, 231, 231);
+    color:white;
 }
 .navibar ul li{
     list-style: none;
+    cursor: pointer;
+}
+.navibar ul li :hover{
+    background-color: rgb(122, 122, 122);
 }
 .Home {
     color: rgb(44, 163, 94);
     text-decoration: underline;
 }
 .home-content{
-    height: 90vh;
+    height: 100vh;
     background-image:url("../images/Aalyah.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,8 +63,9 @@ button{
     border: none;
     background-color: rgb(79, 122, 79);
     color:rgb(205, 205, 207);
+    cursor: pointer;
 }
-.aboutus {
+#aboutus {
     display: flex;
   gap: 10px;
   background-color: rgb(29, 28, 28);
@@ -81,7 +86,27 @@ button{
 margin-left: 8px;
 height: 5vh;
 }
-.services{
+.second{
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.second :hover{
+    transform: translateY(-9px);
+}
+.first button a {
+    text-decoration: none;
+    list-style: none;
+    color:rgb(205, 205, 207);
+}
+.first button{
+    margin-left: 1px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.first :hover{
+    transform: translateY(-9px);
+}
+#services{
     color:rgb(205, 205, 207);
     background-color: black;
     padding: 10px;
@@ -175,7 +200,7 @@ i{
 .circle{
     text-align: center;
 }
-.get{
+#get{
     background-color: black;
     color:rgb(117, 116, 116) ;
     padding: 5px;
@@ -183,7 +208,7 @@ i{
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.get h5{
+#get h5{
     color: rgb(205, 205, 207);
 }
 .getin{

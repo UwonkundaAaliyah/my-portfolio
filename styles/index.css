@@ -253,6 +253,11 @@ input{
 .bu button{
     width: 20%;
     height: 5vh;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.bu :hover{
+    transform: translateY(-9px);
 }
 .last{
     display: flex;
@@ -284,3 +289,21 @@ input{
     padding-top: 60px;
     padding-left: 10px;
 }
+.back-to-top {
+    font-size: 16px;
+    background-color: #1a1919;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 50%;
+  }
+.back-to-top a{
+    text-align: center;
+    background-color: #1a1919;
+}
+  
+  .back-to-top:hover {
+    background-color: #050505;
+  }
